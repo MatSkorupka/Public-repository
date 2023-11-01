@@ -1,0 +1,10 @@
+import yfinance as yf
+
+NSDAQ = yf.download("^IXIC", start="2000-01-01", end="2023-10-31")
+
+gold = yf.download("GC=F", start="2000-01-01", end="2023-10-31")
+
+usd_pln = yf.download("USDPLN=X", start="2000-01-01", end="2023-10-31")
+
+eur_pln = yf.download("EURPLN=X", start="2000-01-01", end="2023-10-31")
+
