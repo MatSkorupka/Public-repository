@@ -8,3 +8,13 @@ usd_pln = yf.download("USDPLN=X", start="2000-01-01", end="2023-10-31")
 
 eur_pln = yf.download("EURPLN=X", start="2000-01-01", end="2023-10-31")
 
+
+#download files to vis on Tableau
+eur_pln.to_csv("E:\\Dane_Tableau\\001\\eur_pln.csv", sep=";")
+
+usd_pln.to_csv("E:\\Dane_Tableau\\001\\usd_pln.csv", sep=";")
+
+gold.to_csv("E:\\Dane_Tableau\\001\\gold.csv", sep=";")
+
+
+#Viz on https://public.tableau.com/app/profile/mateusz.skorupka/vizzes
