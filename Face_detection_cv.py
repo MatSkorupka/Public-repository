@@ -91,3 +91,5 @@ summary_list = list(zip(path, file, result_pic))
 summary_df = pd.DataFrame(summary_list, columns=('sciezka', 'plik', 'wynik'))
 summary_df.to_excel("ID_check.xlsx",
                     sheet_name='ID_check_')
+
+
