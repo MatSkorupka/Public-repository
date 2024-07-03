@@ -85,7 +85,7 @@ for i in doc:
     result.append(check)
 
 
-summary_list = list(zip(path, file, result_pic))
+summary_list = list(zip(path, file, result))
 
 #sumamry list extract to Excel file
 summary_df = pd.DataFrame(summary_list, columns=('sciezka', 'plik', 'wynik'))
